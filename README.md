@@ -1,6 +1,6 @@
 ```
 echo >> feeds.conf.default
-echo 'src-git custompackage https://github.com/BootLoopLover/luci-app-openclash.git' >> feeds.conf.default
+echo 'src-git openclash https://github.com/BootLoopLover/luci-app-openclash.git' >> feeds.conf.default
 ```
 
 ```

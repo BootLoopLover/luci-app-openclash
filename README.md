@@ -1,3 +1,9 @@
+echo >> feeds.conf.default
+echo 'src-git custompackage https://github.com/BootLoopLover/luci-app-openclash.git' >> feeds.conf.default
+
+./scripts/feeds update -a
+./scripts/feeds install -a
+
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/vernesong/OpenClash/dev/img/logo.png" alt="Clash" width="200">
   <br>OpenClash<br>
